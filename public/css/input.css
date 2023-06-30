@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap');
+
+/*font-family
+font-family: 'Roboto', sans-serif; ROBOTO CORPO DA PÁGINA
+font-family: 'Mulish', sans-serif; MULISH TÍTULOS DA PÁGINA*/
+
+/*HEADER*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin-top: -1px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background: rgb(243,244,246);
+    background: linear-gradient(180deg, rgba(243,244,246,1) 15%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+}
+
+.container h1, .melhoresrestaurantes h1, #fonte {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-weight: 600;
+}
+
+.cardleft, .cardright{
+    width: 400px ;    
+}
+.cardleft:hover, .cardright:hover, .cardsmin:hover{
+    transform: scale(1.025);
+    transition-duration: 400ms;
+    transition-delay: 100ms;  
+}
+
+.cards:hover, .cardleft:hover, .cardright:hover{
+    box-shadow: 0px 4px 10px rgb(204, 204, 204);
+}
+
+.central{
+    margin-top: 190px ;
+}
+
+.buscar svg{
+    left: 380px;
+}
+
+header{
+    margin-top: -5px;
+}
+
+.melhoresrestaurantes img, .cardbesrmarkets img{
+    width: 20px;
+}
+
+.cardsbanners a:hover{
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-delay: 100ms; 
+    margin:5px; 
+    box-shadow: 0px 4px 10px rgb(204, 204, 204);
+    border-radius: 15px;
+}
+
+
+.leftentregador{
+    background-image: url(/src/img/blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rightempresas{
+    background-image: url(/src/img/blob2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+

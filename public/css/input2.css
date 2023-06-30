@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap');
+
+/*HEADER*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin-top: -5px;
+}
+
+.container h1, .melhoresrestaurantes h1, #fonte {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.cardrestaurante img{
+    width: 90px;
+}
+
+.star{
+    width: 15px;
+}
+
+.restaurante:hover{
+    transform: scale(1.025);
+    transition-duration: 400ms;
+    transition-delay: 100ms; 
+    box-shadow: 0px 3px 10px rgb(226, 226, 226);
+    border-radius: 8px;
+}
+
+
+
+
